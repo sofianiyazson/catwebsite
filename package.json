@@ -1,0 +1,15 @@
+{
+  "name": "sofianiyazson",
+  "version": "1.0.0",
+  "description": "cats 😼",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
+}

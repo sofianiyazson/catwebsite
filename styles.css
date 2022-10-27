@@ -1,0 +1,56 @@
+button {
+  font-size: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 2rem;
+  min-height: 100vh;
+}
+body > div {
+  max-width: 70rem;
+  margin: 0 auto 10% auto;
+}
+.all-buttons {
+  display: flex;
+  gap: 1em;
+}
+button {
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+}
+button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.all-buttons > * {
+  flex: 1;
+}
+img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.page-no-indicator {
+  display: block;
+  margin-top: 1em;
+}
+.all-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
